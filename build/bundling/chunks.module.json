@@ -1,0 +1,136 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "5145f53c86b9fa1f44d9",
+  "publicPath": "",
+  "outputPath": "/Users/jeromesoh/Documents/React Apps/meownistry-web/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "meownistry-web": [
+      "meownistry-web.module.js",
+      "meownistry-web.8d85f80d53dd2432178d.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "8d85f80d53dd2432178d.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/cat-body.png",
+      "size": 105137,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/mars-theme/src/assets/cat-body.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/cat-eye.png",
+      "size": 5949,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/mars-theme/src/assets/cat-eye.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/cat-paw.png",
+      "size": 29032,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/mars-theme/src/assets/cat-paw.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 49972,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "meownistry-web.8d85f80d53dd2432178d.hot-update.js",
+      "size": 23506,
+      "chunks": [
+        "meownistry-web"
+      ],
+      "chunkNames": [
+        "meownistry-web"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "meownistry-web.module.js",
+      "size": 6973322,
+      "chunks": [
+        "meownistry-web"
+      ],
+      "chunkNames": [
+        "meownistry-web"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "meownistry-web": {
+      "chunks": [
+        "meownistry-web"
+      ],
+      "assets": [
+        "meownistry-web.module.js",
+        "meownistry-web.8d85f80d53dd2432178d.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "list",
+      "files": [
+        "list.module.js"
+      ]
+    },
+    {
+      "id": "meownistry-web",
+      "files": [
+        "meownistry-web.module.js",
+        "meownistry-web.8d85f80d53dd2432178d.hot-update.js"
+      ]
+    }
+  ]
+}
