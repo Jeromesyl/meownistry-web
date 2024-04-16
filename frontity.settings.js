@@ -1,3 +1,4 @@
+
 const settings = {
   "name": "meownistry-web",
   "state": {
@@ -15,23 +16,21 @@ const settings = {
           "menu": [
             [
               "Home",
-              "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "About us",
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Our cats",
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Our rates",
             ],
             [
-              "About Us",
-              "/about-us/"
+              "Rules",
+            ],
+            [
+              "Contact us",
             ]
           ],
           "featured": {

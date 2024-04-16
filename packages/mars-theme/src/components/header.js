@@ -2,18 +2,22 @@ import { connect, styled } from "frontity";
 import Link from "./link";
 import Nav from "./nav";
 import MobileMenu from "./menu";
+import BlackLogo from "../assets/mom-logo-black-cropped.png"
 
 const Header = ({ state }) => {
   return (
     <>
       <Container>
         <StyledLink link="/">
-          <Title>{state.frontity.title}</Title>
+          <Title src={BlackLogo} />
         </StyledLink>
-        <Description>{state.frontity.description}</Description>
+        {/* <Description>{state.frontity.description}</Description> */}
         <MobileMenu />
       </Container>
       <Nav />
+      <BookBtn>
+        Book Now
+      </BookBtn>
     </>
   );
 };
@@ -26,15 +30,17 @@ const Container = styled.div`
   max-width: 100%;
   box-sizing: border-box;
   padding: 24px;
-  color: #fff;
+  color: #101518;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 `;
 
-const Title = styled.h2`
+const Title = styled.img`
   margin: 0;
   margin-bottom: 16px;
+  height: auto;
+  width: 400px;
 `;
 
 const Description = styled.h4`
@@ -45,3 +51,8 @@ const Description = styled.h4`
 const StyledLink = styled(Link)`
   text-decoration: none;
 `;
+
+const BookBtn = styled.button`
+  width: 150px;
+  height: 
+`

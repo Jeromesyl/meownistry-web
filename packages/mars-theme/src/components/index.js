@@ -74,7 +74,7 @@ const HeadContainer = styled.div`
   display: flex;
   align-items: center;
   // flex-direction: column;
-  background-color: #0C0909;
+  background-color: #101518;
 `;
 
 
