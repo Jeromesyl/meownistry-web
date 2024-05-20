@@ -1,19 +1,19 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "894f51543a35a040be3a",
+  "hash": "3587b6b68d6ffe67e3c6",
   "publicPath": "",
   "outputPath": "/Users/jeromesoh/Documents/React Apps/meownistry-web/build/static",
   "assetsByChunkName": {
     "list": "list.module.js",
     "meownistry-web": [
       "meownistry-web.module.js",
-      "meownistry-web.d65f19f58ebe0242f2e0.hot-update.js"
+      "meownistry-web.3ce15b7a20de4d29cb13.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "d65f19f58ebe0242f2e0.hot-update.json",
+      "name": "3ce15b7a20de4d29cb13.hot-update.json",
       "size": 56,
       "chunks": [],
       "chunkNames": [],
@@ -24,6 +24,16 @@
       "emitted": false
     },
     {
+      "name": "images/book-btn-light.svg",
+      "size": 10529,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/mars-theme/src/assets/book-btn-light.svg"
+      },
+      "emitted": true
+    },
+    {
       "name": "images/cat-body.png",
       "size": 105137,
       "chunks": [],
@@ -31,7 +41,7 @@
       "info": {
         "sourceFilename": "packages/mars-theme/src/assets/cat-body.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/cat-eye.png",
@@ -41,7 +51,7 @@
       "info": {
         "sourceFilename": "packages/mars-theme/src/assets/cat-eye.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/cat-paw.png",
@@ -51,17 +61,17 @@
       "info": {
         "sourceFilename": "packages/mars-theme/src/assets/cat-paw.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "images/mom-logo-black-cropped.png",
-      "size": 70629,
+      "name": "images/logo-title-white.svg",
+      "size": 37827,
       "chunks": [],
       "chunkNames": [],
       "info": {
-        "sourceFilename": "packages/mars-theme/src/assets/mom-logo-black-cropped.png"
+        "sourceFilename": "packages/mars-theme/src/assets/logo-title-white.svg"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "list.module.js",
@@ -73,11 +83,11 @@
         "list"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "meownistry-web.d65f19f58ebe0242f2e0.hot-update.js",
-      "size": 19095,
+      "name": "meownistry-web.3ce15b7a20de4d29cb13.hot-update.js",
+      "size": 13902,
       "chunks": [
         "meownistry-web"
       ],
@@ -92,7 +102,7 @@
     },
     {
       "name": "meownistry-web.module.js",
-      "size": 6978312,
+      "size": 6992820,
       "chunks": [
         "meownistry-web"
       ],
@@ -111,7 +121,7 @@
       ],
       "assets": [
         "meownistry-web.module.js",
-        "meownistry-web.d65f19f58ebe0242f2e0.hot-update.js"
+        "meownistry-web.3ce15b7a20de4d29cb13.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -139,7 +149,7 @@
       "id": "meownistry-web",
       "files": [
         "meownistry-web.module.js",
-        "meownistry-web.d65f19f58ebe0242f2e0.hot-update.js"
+        "meownistry-web.3ce15b7a20de4d29cb13.hot-update.js"
       ]
     }
   ]

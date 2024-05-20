@@ -30,11 +30,11 @@ export default connect(Nav);
 const NavContainer = styled.nav`
   list-style: none;
   display: flex;
-  width: 848px;
+  width: auto; 
   max-width: 100%;
   box-sizing: border-box;
-  padding: 0 24px;
-  margin: 0;
+  padding: 0;
+  margin: 0 24px;
   overflow-x: auto;
 
   @media screen and (max-width: 560px) {
@@ -44,9 +44,9 @@ const NavContainer = styled.nav`
 
 const NavItem = styled.div`
   padding: 0;
-  margin: 0 16px;
+  margin: 0 12px;
   color: #fff;
-  font-size: 0.9em;
+  font-size: 0.8em;
   box-sizing: border-box;
   flex-shrink: 0;
 
@@ -55,6 +55,8 @@ const NavItem = styled.div`
     line-height: 2em;
     border-bottom: 2px solid;
     border-bottom-color: transparent;
+    font-family: open-sans, sans-serif;
+    font-weight: lighter;
     /* Use for semantic approach to style the current link */
     &[aria-current="page"] {
       border-bottom-color: #fff;

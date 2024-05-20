@@ -39,7 +39,7 @@ const Theme = ({ state }) => {
         <Header />
       </HeadContainer>
 
-      <PawCursor />
+      {/* <PawCursor /> */}
 
       {/* Add the main section. It renders a different component depending
       on the type of URL we are in. */}
@@ -72,9 +72,10 @@ const globalStyles = css`
 
 const HeadContainer = styled.div`
   display: flex;
-  align-items: center;
-  // flex-direction: column;
   background-color: #101518;
+  justify-content: center;
+  position: sticky;
+  top: 0;
 `;
 
 
